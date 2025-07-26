@@ -44,20 +44,20 @@ El sistema debe permitir al usuario realizar las siguientes operaciones:
   - Salir.
 
 4. Requerimientos de Implementación:
-  A. Buenas Prácticas y Convenciones de Codificación:
+  - A. Buenas Prácticas y Convenciones de Codificación:
      - Nombres de Variables y Métodos: Utiliza nombres descriptivos y sigue las convenciones estándar de Java, como el uso de camelCase para nombres de variables y métodos, y PascalCase para nombres de clases.
      - Indentación y Espaciado: Asegúrate de seguir una buena indentación y espaciado para mejorar la legibilidad del código.
      - Documentación con Javadoc: Cada clase, método y atributo debe estar adecuadamente documentado utilizando Javadoc para describir su propósito, parámetros y valor de retorno.
-  B. Estructuras Condicionales y Repetitivas:
+  - B. Estructuras Condicionales y Repetitivas:
      - Usar sentencias condicionales (if-else) para verificar si una tarea existe al eliminarla o marcarla como completada.
      - Usar bucles (for o while) para recorrer las listas de tareas y mostrarlas al usuario.
-  C. Arreglos y Colecciones:
+  - C. Arreglos y Colecciones:
      - Utiliza un arreglo o lista para almacenar las tareas.
      - El tamaño de la lista debe ser dinámico en función de la cantidad de tareas (considera usar un arreglo de tamaño fijo para simplificar el ejercicio).
-  D. Manejo de Excepciones:
+  - D. Manejo de Excepciones:
      - Asegúrate de manejar posibles errores, como intentar eliminar una tarea que no existe o marcar una tarea que ya está completada.
-  E. Depuración:
-     - Utiliza el IDE para depurar el código, asegurándote de que todas las funcionalidades del programa funcionen correctamentgit add e antes de completar el ejercicio.
+  - E. Depuración:
+     - Utiliza el IDE para depurar el código, asegurándote de que todas las funcionalidades del programa funcionen correctamente antes de completar el ejercicio.
 
 
 **<h3>:blue_book: Desarrollo del Programa:</h3>**
