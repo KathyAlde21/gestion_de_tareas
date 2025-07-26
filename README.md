@@ -23,8 +23,8 @@ El sistema debe permitir al usuario realizar las siguientes operaciones:
 
 1. Estructura de Datos y Clases:
 - Crea una clase Tarea con los siguientes atributos:
-- => Descripción (String): Descripción breve de la tarea.
-- => Completada (boolean): Indica si la tarea está completada o no.
+  - Descripción (String): Descripción breve de la tarea.
+  - Completada (boolean): Indica si la tarea está completada o no.
 - Crea una clase GestionTareas que contendrá los métodos y operaciones del sistema, como agregar, eliminar y listar las tareas.
 
 2. Operaciones Básicas:
@@ -36,39 +36,41 @@ El sistema debe permitir al usuario realizar las siguientes operaciones:
 
 3. Manejo de Entrada y Salida:
 - Crea un menú interactivo en consola con las siguientes opciones:
-- => Agregar tarea.
-- => Eliminar tarea.
-- => Marcar tarea como completada.
-- => Mostrar todas las tareas.
-- => Mostrar solo tareas pendientes.
-- => Salir.
+  - Agregar tarea.
+  - Eliminar tarea.
+  - Marcar tarea como completada.
+  - Mostrar todas las tareas.
+  - Mostrar solo tareas pendientes.
+  - Salir.
 
 4. Requerimientos de Implementación:
-- A. Buenas Prácticas y Convenciones de Codificación:
-  - Nombres de Variables y Métodos: Utiliza nombres descriptivos y sigue las convenciones estándar de Java, como el uso de camelCase para nombres de variables y métodos, y PascalCase para nombres de clases.
-  - Indentación y Espaciado: Asegúrate de seguir una buena indentación y espaciado para mejorar la legibilidad del código.
-  - Documentación con Javadoc: Cada clase, método y atributo debe estar adecuadamente documentado utilizando Javadoc para describir su propósito, parámetros y valor de retorno.
-- B. Estructuras Condicionales y Repetitivas:
-  - Usar sentencias condicionales (if-else) para verificar si una tarea existe al eliminarla o marcarla como completada.
-  - Usar bucles (for o while) para recorrer las listas de tareas y mostrarlas al usuario.
-- C. Arreglos y Colecciones:
-  - Utiliza un arreglo o lista para almacenar las tareas.
-  - El tamaño de la lista debe ser dinámico en función de la cantidad de tareas (considera usar un arreglo de tamaño fijo para simplificar el ejercicio).
-- D. Manejo de Excepciones:
-  - Asegúrate de manejar posibles errores, como intentar eliminar una tarea que no existe o marcar una tarea que ya está completada.
-- E. Depuración:
-  - Utiliza el IDE para depurar el código, asegurándote de que todas las funcionalidades del programa funcionen correctamente antes de completar el ejercicio.
+  A. Buenas Prácticas y Convenciones de Codificación:
+     - Nombres de Variables y Métodos: Utiliza nombres descriptivos y sigue las convenciones estándar de Java, como el uso de camelCase para nombres de variables y métodos, y PascalCase para nombres de clases.
+     - Indentación y Espaciado: Asegúrate de seguir una buena indentación y espaciado para mejorar la legibilidad del código.
+     - Documentación con Javadoc: Cada clase, método y atributo debe estar adecuadamente documentado utilizando Javadoc para describir su propósito, parámetros y valor de retorno.
+  B. Estructuras Condicionales y Repetitivas:
+     - Usar sentencias condicionales (if-else) para verificar si una tarea existe al eliminarla o marcarla como completada.
+     - Usar bucles (for o while) para recorrer las listas de tareas y mostrarlas al usuario.
+  C. Arreglos y Colecciones:
+     - Utiliza un arreglo o lista para almacenar las tareas.
+     - El tamaño de la lista debe ser dinámico en función de la cantidad de tareas (considera usar un arreglo de tamaño fijo para simplificar el ejercicio).
+  D. Manejo de Excepciones:
+     - Asegúrate de manejar posibles errores, como intentar eliminar una tarea que no existe o marcar una tarea que ya está completada.
+  E. Depuración:
+     - Utiliza el IDE para depurar el código, asegurándote de que todas las funcionalidades del programa funcionen correctamentgit add e antes de completar el ejercicio.
 
 
 **<h3>:blue_book: Desarrollo del Programa:</h3>**
 
-- 1. Clase Tarea: Define los atributos y métodos para manejar los datos de las tareas.
- - La clase debe incluir los atributos mencionados y un constructor para inicializarlos.
- - Crear métodos para cambiar el estado de la tarea (marcar como completada) y mostrar su estado.
-- 2. Clase GestionTareas: Gestiona el sistema de tareas.
- - Crea un arreglo de objetos Tarea[] para almacenar las tareas. Este arreglo debe permitir agregar nuevas tareas y eliminar tareas existentes.
- - Implementar métodos para agregar, eliminar, marcar como completada, y mostrar las tareas.
- - Implementar un menú que permita al usuario seleccionar las operaciones que desea realizar.
+1. Clase Tarea: Define los atributos y métodos para manejar los datos de las tareas.
+- La clase debe incluir los atributos mencionados y un constructor para inicializarlos.
+- Crear métodos para cambiar el estado de la tarea (marcar como completada) y mostrar su estado.
+
+2. Clase GestionTareas: Gestiona el sistema de tareas.
+- Crea un arreglo de objetos Tarea[] para almacenar las tareas. Este arreglo debe permitir agregar nuevas tareas y eliminar tareas existentes.
+- Implementar métodos para agregar, eliminar, marcar como completada, y mostrar las tareas.
+- Implementar un menú que permita al usuario seleccionar las operaciones que desea realizar.
+
 3. Clase Principal (Main): Configura y ejecuta el sistema.
 - Crea un objeto de la clase GestionTareas.
 - Mostrar un menú con las opciones disponibles.
